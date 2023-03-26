@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>TIC-TAC-TOE</title>
 </head>
 <body>
     <!--Header-->
     <h1>TIC-TAC-TOE</h1>
-    <!--Main game area-->
-    <div class="game-area">
+    <!--Player one-->
+    <div class="player" id="player-one">
+        <h2>PLAYER 1</h2>
+    </div>
+    <!--Game area-->
+    <div id="game-area">
         <!--Grid-->
-        <div class="grid">
+        <div id="grid">
             <div class="grid-item">
                 <button class="game-button">1</button>
             </div>
@@ -42,6 +47,10 @@
                 <button class="game-button">9</button>
             </div>
         </div>
+    </div>
+    <!--Player two-->
+    <div class="player" id="player-two">
+        <h2>PLAYER 2</h2>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
