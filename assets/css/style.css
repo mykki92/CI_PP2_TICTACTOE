@@ -25,6 +25,7 @@ h1 {
 }
 .player > h2 {
     text-align: center;
+    text-decoration: underline solid 3px;
 }
 #game-area {
     vertical-align: top;
