@@ -66,3 +66,18 @@ h1 {
     width: 130px;
 }
 
+/*Restart*/
+#restart {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#restart-button {
+    height: 50px;
+    width: 50px;
+    font-size: 200%;
+    background-color: #fff;
+    border: none;
+}
+
