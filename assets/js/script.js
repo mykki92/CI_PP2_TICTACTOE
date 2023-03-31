@@ -1,3 +1,4 @@
+/*drag and drop functions*/
 function allowDrop(event) {
     event.preventDefault();
 }
@@ -12,3 +13,4 @@ function drop(event) {
     let nodeCopy = document.getElementById(data).cloneNode(true);
     event.target.appendChild(nodeCopy);
 }
+

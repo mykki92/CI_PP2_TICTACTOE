@@ -19,28 +19,30 @@
     <div class="player" id="player-one">
         <h2>PLAYER 1</h2>
         <i class="fa-regular fa-x" id="x-drag" draggable="true" ondragstart="drag(event)"></i>
+        <h2>SCORE</h2>
+        <p class="score-count">0</p>
     </div>
     <!--Game area-->
     <div id="game-area">
         <!--Grid-->
         <div id="grid">
-            <div class="grid-item" id="grid-item1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="0" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="1" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item3" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="2" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item4" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="3" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item5" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="4" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item6" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="5" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item7" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="6" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item8" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="7" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
-            <div class="grid-item" id="grid-item9" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="grid-item" cell-index="8" ondrop="drop(event)" ondragover="allowDrop(event)">
             </div>
         </div>
     </div>
@@ -48,6 +50,8 @@
     <div class="player" id="player-two">
         <h2>PLAYER 2</h2>
         <i class="fa-regular fa-circle" id="o-drag" draggable="true" ondragstart="drag(event)"></i>
+        <h2>SCORE</h2>
+        <p class="score-count">0</p>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
