@@ -9,5 +9,6 @@ function drag(event) {
 function drop(event) {
     event.preventDefault();
     let data = event.dataTransfer.getData("text");
-    event.target.appendChild(document.getElementById(data));
+    let nodeCopy = document.getElementById(data).cloneNode(true);
+    event.target.appendChild(nodeCopy);
 }
