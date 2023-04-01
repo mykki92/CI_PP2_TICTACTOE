@@ -1,0 +1,29 @@
+body {
+    background-color: #fff;
+    font-family: "Righteous", cursive;
+}
+/*Header*/
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 230%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+}
+.game-card {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 5px;
+}
+.card-front, .card-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
