@@ -18,9 +18,9 @@
     <!--Player one-->
     <div class="player" id="player-one">
         <h2>PLAYER 1</h2>
-        <i class="fa-regular fa-x" id="x-drag" draggable="true" ondragstart="drag(event)"></i>
+        <i class="fa-regular fa-x" id="x-player-one" draggable="true" ondragstart="drag(event)"></i>
         <h2>SCORE</h2>
-        <p class="score-count">0</p>
+        <p class="score-count" id="player-one-score">0</p>
     </div>
     <!--Game area-->
     <div id="game-area">
@@ -49,10 +49,11 @@
     <!--Player two-->
     <div class="player" id="player-two">
         <h2>PLAYER 2</h2>
-        <i class="fa-regular fa-circle" id="o-drag" draggable="true" ondragstart="drag(event)"></i>
+        <i class="fa-regular fa-circle" id="o-player-two" draggable="true" ondragstart="drag(event)"></i>
         <h2>SCORE</h2>
-        <p class="score-count">0</p>
+        <p class="score-count" id="player-two-score">0</p>
     </div>
+    <!--Restart button-->
     <div id="restart">
         <button id="restart-button"><i class="fas fa-sync-alt"></i></button>
     </div>

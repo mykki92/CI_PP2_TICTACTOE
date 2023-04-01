@@ -17,7 +17,7 @@ h1 {
     width: 25%;
     text-align: center;
 }
-#x-drag {
+#x-player-one {
     font-size: 500%;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -28,7 +28,7 @@ h1 {
     width: 25%;
     text-align: center;
 }
-#o-drag {
+#o-player-two {
     font-size: 500%;
     padding-top: 20px;
     padding-bottom: 50px;

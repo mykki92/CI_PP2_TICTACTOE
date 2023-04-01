@@ -1,4 +1,15 @@
-/*drag and drop functions*/
+const playerOne = document.getElementById('player-one');
+const playerTwo = document.getElementById('player-two');
+
+let turn = true;
+
+function playerMove () {
+    document.getElementsByClassName('grid-item').on('drop', function{
+        
+    })
+}
+
+//drag and drop functions
 function allowDrop(event) {
     event.preventDefault();
 }
@@ -13,4 +24,3 @@ function drop(event) {
     let nodeCopy = document.getElementById(data).cloneNode(true);
     event.target.appendChild(nodeCopy);
 }
-
