@@ -1,13 +1,4 @@
-const playerOne = document.getElementById('player-one');
-const playerTwo = document.getElementById('player-two');
 
-let turn = true;
-
-function playerMove () {
-    document.getElementsByClassName('grid-item').on('drop', function{
-        
-    })
-}
 
 //drag and drop functions
 function allowDrop(event) {
