@@ -31,7 +31,7 @@ h1 {
     transition: transform .2s;
   }
 .game-card.flip {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 .card-front, .card-back {
     height: 100%;
@@ -41,5 +41,5 @@ h1 {
     backface-visibility: hidden;
 }
 .card-front {
-    transform: rotateY(180deg);
+    transform: rotatex(180deg);
   }
