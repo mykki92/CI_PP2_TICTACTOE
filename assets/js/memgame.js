@@ -31,12 +31,14 @@ function checkForMatch() {
    unflipCards();
 }
 
+//prevents cards from flipping back once they have matched
 function disableCards() {
    firstCard.removeEventListener('click', flipCard);
    secondCard.removeEventListener('click', flipCard);
    resetBoard();
 }
 
+//unflips cards after unsuccessful attempt
 function unflipCards() {
     lockBoard = true;
 
@@ -48,10 +50,18 @@ function unflipCards() {
    }, 1500);
  }
 
- function resetBoard() {
+//resets the variables after each turn
+function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
-  }
+}
 
+//shuffles card positions
+(function shuffle() {
+    cards.forEach(card => {
+      let ramdomPos = Math.floor(Math.random() * 12);
+      card.style.order = ramdomPos;
+    });
+  })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));

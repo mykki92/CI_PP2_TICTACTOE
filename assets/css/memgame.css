@@ -9,12 +9,12 @@ h1 {
     font-size: 230%;
 }
 
-#grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+.game-container {
     width: 600px;
     height: 450px;
-    margin: 0 auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     perspective: 1000px;
 }
 .game-card {
